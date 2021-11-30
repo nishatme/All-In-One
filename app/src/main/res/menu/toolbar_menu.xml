@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Home"
+        android:id="@+id/nav_home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+
+    <item
+        android:title="Back"
+        android:id="@+id/nav_back"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        />
+
+    <item
+        android:title="Forward"
+        android:id="@+id/nav_forward"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_arrow_forward_24"
+        />
+
+    <item
+        android:title="Refresh"
+        android:id="@+id/nav_refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        />
+
+</menu>
